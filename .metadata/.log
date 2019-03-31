@@ -1,0 +1,35 @@
+!SESSION 2019-03-31 14:09:59.358 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/siddhant/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Users/siddhant/Documents/My Workspace/My Projects/G Pay WSP II -product org.eclipse.epp.package.jee.product -keyring /Users/siddhant/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-31 14:10:06.289
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-03-31 14:12:02.987
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+!SESSION 2019-03-31 14:20:54.341 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/siddhant/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Users/siddhant/Documents/My Workspace/My Projects/G Pay WSP II -product org.eclipse.epp.package.jee.product -keyring /Users/siddhant/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-31 14:20:58.403
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-31 14:39:32.885
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-31 14:39:32.892
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-31 14:39:32.974
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-03-31 14:39:32.976
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

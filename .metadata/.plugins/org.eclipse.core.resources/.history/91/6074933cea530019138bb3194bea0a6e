@@ -1,0 +1,12 @@
+package com.dev.eventmanager.dbutils;
+
+import javax.sql.DataSource;
+
+public class CustomerDbUtil {
+
+	private DataSource dataSource;
+
+	public CustomerDbUtil(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+}

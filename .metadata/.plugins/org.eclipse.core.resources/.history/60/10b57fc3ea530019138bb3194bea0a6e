@@ -1,0 +1,54 @@
+package com.dev.eventmanager.dbutils;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import javax.sql.DataSource;
+
+import com.dev.eventmanager.beans.Customer;
+
+public class CustomerDbUtil {
+
+	private DataSource dataSource;
+
+	public CustomerDbUtil(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+
+	public boolean insertIntoDB(Customer customer) {
+		boolean isSuccess = false;
+		
+		//CONNECT TO THE DATABASE
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		
+		try{
+			
+			//GET A CONNECTION
+			conn = dataSource.getConnection();
+			
+			//CREATE SQL STATEMENT
+			String sql = "insert into student"
+					+ "(first_name,last_name,email)"
+					+ "values (?,?,?)";
+			
+			//SET THE PARAM VALUES FOR STUDENT
+			stmt = conn.prepareStatement(sql);
+			stmt.setString(1,student.getFirstName());
+			stmt.setString(2, student.getLastName());
+			stmt.setString(3, student.getEmail());
+			
+			//EXECUTE THE QUERY
+			stmt.execute();
+			isSuccess = true;
+			
+		}catch(Exception e){
+			e.printStackTrace();
+			isSuccess = false;
+		}finally{
+			close(conn, stmt, null);
+		}
+				
+		return isSuccess;
+	}
+}

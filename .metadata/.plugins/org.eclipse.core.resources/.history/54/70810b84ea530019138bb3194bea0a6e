@@ -1,0 +1,19 @@
+package com.dev.eventmanager.dbutils;
+
+import javax.sql.DataSource;
+
+import com.dev.eventmanager.beans.Customer;
+
+public class CustomerDbUtil {
+
+	private DataSource dataSource;
+
+	public CustomerDbUtil(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+
+	public boolean insertIntoDB(Customer customer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+}
